@@ -1,0 +1,25 @@
+sources (excel) -> staging (loading data into datawarehouse before modeling schema star) -> star schema -> analytics (dashboard)
+
+ETL Process:
+
+1. verifying & extracting data source from excel
+2.creating tables and Load data into the respective tables in SQL Server. (staging area)
+
+1. choosing the right design for our data (star schema)
+2. datamart modeling (star schema)
+3. Create Dimension Tables
+
+4. Extract unique values from the E-commerce, Product, and Invoice sheets.
+Create tables DimCustomer, DimProduct, and DimInvoice.
+
+5. Create Fact Table:
+
+Extract transactional data from the E-commerce sheet.
+Include foreign keys for CustomerID, ProductID, and InvoiceNumber.
+Add metrics and descriptive attributes.
+
+Extract data from the source Excel sheets.
+Transform data to ensure consistency and cleanliness.
+Load data into the respective tables in SQL Server.
+
+7. implement the star schema

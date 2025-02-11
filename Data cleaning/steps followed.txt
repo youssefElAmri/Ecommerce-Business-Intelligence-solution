@@ -1,0 +1,5 @@
+1. create table from the dataset to make it visually appealing, and more organized and clear
+2. number / date formatting
+3. autofit rows and columns
+4. duplicates values (product sheet)
+5. uppercase text cells
